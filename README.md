@@ -8,7 +8,8 @@ Datos, código y flujo de trabajo de los experimentos realizados
 
 - En la subsección "Datos sin falla" están los datos del estanque operando con normalidad por 20 horas. 
 
-- En la subsección "Datos con falla", todos los datos corresponden a la operación del estanque por 30 horas, de las cuales las primeras 10 corresponden a operación normal y el resto operación en falla. El tipo de falla es indicado en el nombre del archivo, siendo la falla incipiente la más interesante, dado que inicia de forma silenciosa y es cada vez más presente conforme pasa el tiempo.
+- En la subsección "Datos con falla", todos los datos corresponden a la operación del estanque por 30 horas, de las cuales las primeras 10 corresponden a operación normal y el resto operación en falla. El tipo de falla es indicado en el nombre del archivo, siendo la falla incipiente la más interesante, dado que inicia de forma silenciosa y es cada vez más presente conforme pasa el tiempo. Las fallas del tipo "fuga" corresponden a filtraciones de agua que se modelan como un aumento en el flujo de salida (partiendo como una gotera y aumentando hasta un filtrado grave). Las fallas del tipo "falla en la bomba" corresponden a un cambio en las constantes que multiplican el porcentaje de utilización de la bomba, lo cual modela una contingencia en el flujo de entrada.
+
 
 - Los datos están en formato .csv y tienen los siguientes encabezados: "tiempo", "referencia", "hc", y "f_pid". Los datos de "referencia" corresponden a la referencia de nivel del estanque (i.e. el nivel al que se desea configurar el estanque, esta es cambiante en el tiempo cada 400 segundos), los datos de "hc" corresponden a la altura de agua en el estanque (en cm), y los datos de "f_pid" corresponden a la señal de control que se envía al actuador (bomba), en porcentaje de utilización, por lo que vive en el rango [0,100]. 
 
