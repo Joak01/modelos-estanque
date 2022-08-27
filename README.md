@@ -25,6 +25,7 @@ Datos, código y flujo de trabajo de los experimentos realizados
 
 - [ ] Justificar la elección de parámetros de entrada de la red neuronal (i.e. cantidad de autorregresores)
 - [ ] Justificar la elección de la arquitectura de la red neuronal (i.e. cantidad de capas, cantidad de neuronas por capa, función de activación, etc.)
+- [ ] Experimentar con distintos niveles de ruido adecuandose a lo indicado por C. Jáuregui en su tesis (pag. 85 y figura 4.9a en la pag. 86).
 - [ ] Experimentar el test con combinaciones lineales de las señales de entrada.
 - [ ] Desarrollar test de hipótesis que valide la experimentación y la robustez del método utilizado (p-valor, diferencia de medias, etc...)
  
