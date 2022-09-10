@@ -9,4 +9,4 @@ data = [TIME, Referencia, HC, F_PID];
 
 DATOS_MODELO = [headers; num2cell(data)];
 
-writecell(DATOS_MODELO, 'datos con falla/referencia_fija_falla_bomba.csv') %
+writecell(DATOS_MODELO, 'datos sin falla/referencia_fija_5s.csv') %
