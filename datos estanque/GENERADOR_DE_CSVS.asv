@@ -4,9 +4,11 @@ TIME = f_pid.Time;
 F_PID = f_pid.Data;
 HC = Mesuared_hc.Data;
 Referencia = REFERENCIA.Data;
-headers = {'tiempo','referencia','hc','f_pid'};
-data = [TIME, Referencia, HC, F_PID];
+prediction = PREDICTED_HC.Data;
+
+headers = {'tiempo','referencia','hc','f_pid', 'predicted_hc'};
+data = [TIME, Referencia, HC, F_PID, prediction];
 
 DATOS_MODELO = [headers; num2cell(data)];
 
-writecell(DATOS_MODELO, 'datos con falla/data_falla_incipiente_fuga_v3.csv') %
+writecell(DATOS_MODELO, 'datos con falla/referencia_fija_5s_bomba.csv') %
