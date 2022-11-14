@@ -1,0 +1,5 @@
+#ifndef RTW_HEADER_SistemaEstanques_PID_discreto_capi_h_
+#define RTW_HEADER_SistemaEstanques_PID_discreto_capi_h_
+#include "SistemaEstanques_PID_discreto.h"
+extern void SistemaEstanques_PID_discreto_InitializeDataMapInfo ( void ) ;
+#endif

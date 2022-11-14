@@ -11,5 +11,5 @@ data = [TIME, Referencia, HC, F_PID, prediction];
 
 DATOS_MODELO = [headers; num2cell(data)];
 
-writecell(DATOS_MODELO, 'datos con falla/referencia_fija_t1s_fout.csv') %
+writecell(DATOS_MODELO, 'datos con falla/falla_fout_grave_t4s_long_v3.csv') %
 
