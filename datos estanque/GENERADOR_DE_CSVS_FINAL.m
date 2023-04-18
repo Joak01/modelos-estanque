@@ -11,7 +11,9 @@ data = [TIME, Referencia, HC, F_PID];%, prediction];
 
 DATOS_MODELO = data;
 
-writematrix(DATOS_MODELO, 'datos sin falla/1s/no10m2_train_st1s.csv') ;
+%writematrix(DATOS_MODELO, 'datos con falla/25s/10m1/10m1_1b_st25s.csv') ;
+writematrix(DATOS_MODELO, 'datos sin falla/5s/train_2_st25s.csv') ;
 
-%n
+%10m1_10b_st5s
+
 %  o10m4_fp10a_st18s_long
